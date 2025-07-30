@@ -42,7 +42,7 @@ function calIntrest(){
         console.log("\n\nout 1 Intrest : "+intrest+" amount : "+amt+" yy="+yy+" mm="+mm+" dd="+dd);
         // System.out.println("\n\nout 1 Intrest : "+intrest+" amount : "+amt+" yy="+yy);
         if(mm>0) intrest+=((mm)*((amt/100)*i));
-        if(dd>0) intrest+=(dd*(((amt/100)*i)/30));
+        if(dd>0) intrest+=((dd+1)*(((amt/100)*i)/30));
         console.log("\n\nout 2 Intrest : "+intrest+" amount : "+amt+" yy="+yy+" mm="+mm+" dd="+dd);
         if(mm===0&&yyy===0)intrest-=((aamt/100)*i);
         else intrest-=((amt/100)*i);
